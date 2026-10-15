@@ -1,0 +1,16 @@
+.venv/
+__pycache__/
+*.egg-info/
+dist/
+.pytest_cache/
+.ruff_cache/
+# default output folders: personal travel history, never commit
+clipper-export*/
+clipper-receipts*/
+clipper-statements*/
+presto-export*/
+presto-receipts*/
+# browser network captures used during development: contain live tokens + PII
+*.har
+# generated exports: personal travel history, never commit
+*.csv
