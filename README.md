@@ -1,13 +1,23 @@
-# transitlog
+<!-- header:start -->
+<div align="center">
+
+<img alt="transitlog: Download your own Clipper and PRESTO transit-card history and get usage reports." src=".github/assets/banner.svg" width="100%">
+
+![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-0f6f68?labelColor=15181c&color=0f6f68)
+[![licence: MIT](https://img.shields.io/badge/licence-MIT-0f6f68?labelColor=15181c&color=0f6f68)](LICENSE)
+
+[Install](#install) · [Usage](#usage) · [Sample report](#sample-report-made-up-numbers) · [Python API](#python-api)
+
+</div>
+
+<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own cards. Unofficial and not affiliated with Clipper, PRESTO, MTC or Metrolinx. Use it only on your own account. Provided as is, with no warranty." src=".github/assets/hai.svg" width="100%"></a>
+
+<sub>Full terms: [DISCLAIMER.md](DISCLAIMER.md)</sub>
+<!-- header:end -->
 
 Download your own transit-card history (every trip, every purchase, receipts)
 and get a usage report out of it. Supports **Clipper** (SF Bay Area) and
 **PRESTO** (Ontario / Metrolinx).
-
-> [!WARNING]
-> **Provided AS IS, with no warranty and no liability. Written with AI assistance.**
-> Review the code before you run it, and only use it on your own account.
-> Read [DISCLAIMER.md](DISCLAIMER.md) before use.
 
 clippercard.com shows trip history in pages of ten and only offers downloads for
 one card and one date range at a time, capped at 100 rows. This tool:
