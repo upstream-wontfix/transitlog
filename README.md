@@ -1,18 +1,18 @@
 <!-- header:start -->
 <div align="center">
 
-<img alt="transitlog: Download your own Clipper and PRESTO transit-card history and get usage reports." src=".github/assets/banner.svg" width="100%">
+<img alt="transitlog: Download your own Clipper and PRESTO transit-card history and get usage reports." src="https://raw.githubusercontent.com/upstream-wontfix/transitlog/main/.github/assets/banner.svg" width="100%">
 
 ![python: 3.10+](https://img.shields.io/badge/python-3.10%2B-0f6f68?labelColor=15181c&color=0f6f68)
-[![licence: MIT](https://img.shields.io/badge/licence-MIT-0f6f68?labelColor=15181c&color=0f6f68)](LICENSE)
+[![licence: MIT](https://img.shields.io/badge/licence-MIT-0f6f68?labelColor=15181c&color=0f6f68)](https://github.com/upstream-wontfix/transitlog/blob/main/LICENSE)
 
 [Install](#install) · [Usage](#usage) · [Sample report](#sample-report-made-up-numbers) · [Python API](#python-api)
 
 </div>
 
-<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own cards. Unofficial and not affiliated with Clipper, PRESTO, MTC or Metrolinx. Use it only on your own account. Provided as is, with no warranty." src=".github/assets/hai.svg" width="100%"></a>
+<a href="https://haiscale.amolven.com/A1/"><img alt="HAI Scale A1, Mostly automated. Most of the code was written by AI coding agents. I directed the design, reviewed the changes and tested it on my own cards. Unofficial and not affiliated with Clipper, PRESTO, MTC or Metrolinx. Use it only on your own account. Provided as is, with no warranty." src="https://raw.githubusercontent.com/upstream-wontfix/transitlog/main/.github/assets/hai.svg" width="100%"></a>
 
-<sub>Full terms: [DISCLAIMER.md](DISCLAIMER.md)</sub>
+<sub>Full terms: [DISCLAIMER.md](https://github.com/upstream-wontfix/transitlog/blob/main/DISCLAIMER.md)</sub>
 <!-- header:end -->
 
 Download your own transit-card history (every trip, every purchase, receipts)
