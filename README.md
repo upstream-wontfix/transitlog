@@ -56,7 +56,7 @@ clean, scriptable form. People use that for:
 - **And more!**
 
 Whatever the use, the rule is the same: **your own account, your own data** — see
-[DISCLAIMER.md](DISCLAIMER.md).
+[DISCLAIMER.md](https://github.com/upstream-wontfix/transitlog/blob/main/DISCLAIMER.md).
 
 ## What you can get
 
@@ -72,9 +72,23 @@ Whatever the use, the rule is the same: **your own account, your own data** — 
 
 ## Install
 
+From PyPI:
+
+```bash
+pipx install transitlog        # or: uv tool install transitlog
+pip install transitlog         # as a library in an existing environment
+```
+
+From source:
+
 ```bash
 git clone https://github.com/upstream-wontfix/transitlog && cd transitlog
 uv tool install .              # or: pipx install .
+```
+
+Then store your password:
+
+```bash
 transitlog clipper set-password   # stores it in ~/.config/transitlog/clipper.password (mode 600)
 ```
 
@@ -313,7 +327,7 @@ Copyright (c) 2026 Amol Venkataraman.
 
 Released under the MIT License — do what you like with it, keep the copyright and
 licence notice, and note that it comes with **no warranty of any kind**. See
-[LICENSE](LICENSE) and [DISCLAIMER.md](DISCLAIMER.md).
+[LICENSE](https://github.com/upstream-wontfix/transitlog/blob/main/LICENSE) and [DISCLAIMER.md](https://github.com/upstream-wontfix/transitlog/blob/main/DISCLAIMER.md).
 
 Not affiliated with or endorsed by Clipper, the Metropolitan Transportation
 Commission, PRESTO, Metrolinx or any transit operator. "Clipper" and "PRESTO"
